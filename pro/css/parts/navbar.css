@@ -1,0 +1,90 @@
+.mahamiee-header .navbar {
+  background: var(--brn-clr);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+  padding: .3rem 2rem;
+}
+
+.mahamiee-header .navbar .navbar-brand {
+  font-size: 1.6rem;
+}
+
+.mahamiee-header .navbar .navbar-brand span {
+  /* position: absolute; */
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: -8px;
+}
+
+.mahamiee-header .navbar .navbar-nav {
+  margin-top: .3rem;
+}
+
+.mahamiee-header .navbar .nav-item .nav-link {
+  padding: .1rem 1rem;
+  margin: 0 .0rem;
+  color: var(--mn-clr);
+  font-size: .9rem;
+  font-weight: 499;
+  text-transform: capitalize;
+  border: none;
+}
+
+.mahamiee-header .navbar .nav-item .nav-link.active {
+  font-weight: 600;
+}
+
+.mahamiee-header .navbar .nav-item .nav-link.active,
+.mahamiee-header .navbar .nav-item .nav-link:hover {
+  background: var(--scnd-clr);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  color: var(--brn-clr);
+  transition: all .2s ease-in-out;
+  /* text-transform: uppercase; */
+}
+
+/* .mahamiee-header .navbar .nav-item .nav-link:not(.login){
+} */
+.mahamiee-header .navbar .signup-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--scnd-clr);
+  text-transform: capitalize;
+}
+
+.mahamiee-header .navbar .signup-btn:hover {
+  color: var(--mn-clr);
+  cursor: pointer;
+}
+
+.mahamiee-header .navbar .signup-btn:hover span {
+  color: var(--scnd-clr);
+}
+
+.mahamiee-header .navbar .signup-btn span {
+  font-size: .8rem !important;
+  margin-top: -3px;
+  text-transform: uppercase;
+  color: var(--mn-clr);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.mahamiee-header .navbar .login-btn {
+  margin-left: 1.5rem !important;
+  border-radius: 81px;
+  font-size: 1rem;
+  padding: .3rem 1.5rem;
+  background: var(--mn-clr);
+  color: var(--brn-clr);
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.64);
+}
+
+.mahamiee-header .navbar .login-btn:hover {
+  color: var(--mn-clr);
+  background: transparent;
+  box-shadow: none;
+}

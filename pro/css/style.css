@@ -1,0 +1,23 @@
+@import "./default.css";
+@import "./parts/navbar.css";
+@import "./parts/all-content-sections.css";
+@import "./parts/content-focus.css";
+@import "./parts/our-work.css";
+@import "./parts/features.css";
+@import "./parts/services.css";
+@import "./parts/footer.css";
+
+
+.container{
+  max-width:90% !important;
+  padding: 0 !important;
+}
+
+section{
+  color:var(--brn-clr);
+}
+
+.mahamiee-component{
+  padding:4rem 0;
+}
+

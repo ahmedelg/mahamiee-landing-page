@@ -1,0 +1,234 @@
+.mahamiee-content_services {
+
+  /* background: red; */
+  height: auto;
+  margin-top: 10rem;
+}
+
+.mahamiee-content_services-all {}
+
+.mahamiee-content_services-all .service-box {
+  position: relative;
+  height: auto;
+  width: 85%;
+  /* border: 1px solid var(--brn-clr); */
+  margin: 0 auto;
+}
+
+.mahamiee-content_services-all .service-box {
+  /* padding:1rem; */
+
+}
+
+.mahamiee-content_services-all .service-box .service-box_header {
+  text-align: center;
+}
+
+.mahamiee-content_services-all .service-box .service-box_header .service-type {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mahamiee-content_services-all .service-box .service-box_header .service-type span {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mahamiee-content_services-all .service-box::before {
+  content: '';
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-image: url('../../assets/images/patterns/moroccan-flower-dark.png');
+  top: -15px;
+  border-radius: 60px;
+  left: -15px;
+}
+
+.mahamiee-content_services-all .service-box::after {
+  content: '';
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-image: url('../../assets/images/patterns/moroccan-flower-dark.png');
+  top: -15px;
+  border-radius: 60px;
+  right: -15px;
+}
+
+
+.mahamiee-content_services-all .service-box .service-box_header {
+  padding: 1rem;
+  padding-top: 1.5rem;
+}
+
+.mahamiee-content_services-all .service-description {}
+
+.mahamiee-content_services-all .service-type-basic .service-box_header {
+  position: re;
+  background-color: rgb(219 175 107);
+  color: rgb(255 241 224);
+  padding-bottom: 1.5rem;
+}
+
+.mahamiee-content_services-all .service-box_header .service-starts {
+  position: absolute;
+  left: 20%;
+  background: red;
+  height: auto;
+  width: 60%;
+  background: #FFE3B8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.mahamiee-content_services-all .service-box_header .service-starts i {}
+
+
+.mahamiee-content_services-all .service-type-basic {}
+
+.mahamiee-content_services-all .service-box_content {
+  /* padding: 0rem 2.5rem; */
+  height: auto;
+  padding-top: 2.5rem;
+}
+
+.mahamiee-content_services-all .service-type-basic .service-box_content {
+  background: linear-gradient(to left, #f2f2f2,rgb(247, 223, 186));
+  color: rgb(186 131 68);
+}
+
+.mahamiee-content_services-all .service-type-basic .service-starts i {
+  color: rgba(234, 159, 73, 1);
+}
+
+.mahamiee-content_services-all .service-box_content ul li {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: .9rem;
+  text-justify: auto;
+  text-align: justify;
+  color: rgb(168, 115, 53);
+}
+
+.mahamiee-content_services-all .service-box_content ul li i {
+  color: rgb(168, 115, 53);
+  font-size: 1.3rem;
+  /* box-shadow: 0px 4px 4px; */
+  padding-right: 5px;
+}
+
+.mahamiee-content_services-all .service-box_content ul li.not-available {
+  color: #3c3f42 !important;
+}
+
+.mahamiee-content_services-all .service-box_content ul li.not-available i {
+  color: #62615f !important;
+}
+
+.mahamiee-content_services-all .service-box_content .service-price {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+
+}
+
+.mahamiee-content_services-all .service-box_content .service-price h3 {
+  font-weight: 700;
+}
+
+.mahamiee-content_services-all .service-box_content .service-price span {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.mahamiee-content_services-all .service-box_get-button {
+  width: 100%;
+  height: auto;
+  background: #dbaf6b;
+  color: #ffe9c9;
+  padding: .5rem;
+
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: .8;
+}
+
+.mahamiee-content_services-all .service-box_get-button:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.service-type-premium .service-box_header{
+  background:rgb(51, 214, 151) !important;
+  color:rgba(255, 255, 255, 1);
+}
+
+.service-type-premium .service-starts{
+  background:rgb(175, 247, 220) !important;
+  color:#33d697;
+  margin-top: 2px !important;
+}
+
+.service-type-premium .service-box_content {
+  background:linear-gradient(to left, #dbfff1,rgb(158, 243, 210));
+}
+
+.service-type-premium .service-box_content ul li {
+  color:#1f9064;
+}
+.service-type-premium .service-box_content ul li i {
+  color:#1f9064;
+}
+
+.service-type-premium .service-box_content .service-price{
+  color:#33d697;
+}
+
+.service-type-premium  .service-box_get-button {
+  background:#1f9064 !important;
+  color:#33d697 !important;
+}
+
+
+.service-type-business .service-box_header{
+  background:rgba(64, 154, 255, 1) !important;
+  color:rgba(255, 255, 255, 1);
+}
+
+.service-type-business .service-starts{
+  background:rgb(182, 217, 255) !important;
+  color:rgba(64, 154, 255, 1);
+  margin-top: 2px !important;
+}
+
+.service-type-business .service-box_content {
+  background:linear-gradient(to left, #daebff,rgb(144, 196, 255));
+}
+
+.service-type-business .service-box_content ul li {
+  color:#2b5b91;
+}
+.service-type-business .service-box_content ul li i {
+  color:#2b5b91;
+}
+
+.service-type-business .service-box_content .service-price{
+  color:rgba(64, 154, 255, 1);
+}
+
+.service-type-business  .service-box_get-button {
+  background:#409aff !important;
+  color:#bcdbfd !important;
+  /*! opacity: 1 !important; */
+}
