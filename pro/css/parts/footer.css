@@ -1,0 +1,182 @@
+.mahamiee-footer_container{
+  padding: 4rem;
+background: rgba(28, 48, 93, 0.62);
+}
+
+.mahamiee-footer_content-title{
+  color: rgba(164, 207, 255, 1);
+  font-size:.9rem;
+  padding: 1.5rem 0;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.mahamiee-footer_content-address{
+  font-size:3rem;
+  color:rgba(147, 188, 236, 1);
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+
+.mahamiee-footer_content-address span {
+  font-size:.9rem;
+  color: rgb(123, 175, 230);
+  display: block;
+  margin-top: -.5rem;
+  font-weight: 500;
+  /*! text-decoration: underline; */
+}
+
+.mahamiee-footer_description{
+  color:var(--brn-clr);
+  font-size:.9rem;
+  padding: .7rem 0;
+  text-align: justify;
+  width: 80%;
+  text-indent: 2rem;
+  padding-bottom: 0rem;
+  padding-top: 1.5rem;
+}
+
+.mahamiee-footer_social-links {
+  padding: .5rem 0;
+  padding-bottom: 1.6rem;
+}
+.mahamiee-footer_social-links span {
+  border:2px solid #056de0;
+  border-radius: 119px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8c9fc4;
+  cursor: pointer;
+  /*! opacity: .8; */
+  margin: 0 .1rem;
+}
+
+.mahamiee-footer_social-links span.twitter{
+  border-color:#2AD400;
+ 
+}
+
+.mahamiee-footer_social-links span.twitter a {
+  color:#2AD400 !important;
+}
+
+.mahamiee-footer_subscription-part * {
+  border-radius: 6px;
+}
+
+
+.mahamiee-footer_subscription-part input {
+  background-color: transparent;
+  color:rgb(147, 188, 236);
+  border:1px solid rgb(147, 188, 236);
+  font-size: .9rem;
+  padding: 3px 8px;
+  text-align: center;
+  padding-left: 6px;
+  /*! border-radius: 60px; */
+  width: 90%;
+  margin: .3rem 0;
+}
+
+.mahamiee-footer_subscription-part input[type="submit"] {
+  background: #93bcec;
+  color: #1A3766 !important;
+  border:1px solid rgb(163, 207, 255) !important;
+  height: 30px;
+  line-height: 1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: .9rem;
+  padding: 0 .7rem;
+  font-weight: 900;
+  transition: all .3s linear;
+}
+.mahamiee-footer_subscription-part input[type="submit"]:hover{
+  background: transparent;
+  color:#93bcec !important;
+}
+.mahamiee-footer_subscription-part span {
+  font-size:.7rem;
+  color: #93bcec;
+  display: block;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.footer-mahamiee_copyright {
+  text-align: center;
+  padding:.5rem;
+  background: #1C305D;
+  font-weight: 500;
+}
+
+.footer-mahamiee_copyright span {
+  color:var(--scnd-clr);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* CONTACT US */
+.mahamiee-footer_contact-us{
+
+}
+
+.mahamiee-footer_contact-us input, .mahamiee-footer_contact-us textarea{
+  background-color: transparent;
+  border:1px solid #A4CFFF;
+  margin: 1rem 0rem;
+  border-radius: 5px;
+  padding:6px 7px;
+  font-size:.9rem;
+  color:var(--brn-clr);
+  width: 90%;
+  padding-top: .7rem;
+}
+
+.mahamiee-footer_contact-us div {
+  position: relative;
+}
+
+.mahamiee-footer_contact-us div p{
+  position: absolute;
+  top:5px;
+  background-color: #1a3766;
+  z-index: 99;
+  text-transform: capitalize;
+  left: 2rem;
+  color: #a4cfff;
+  /*! background-image: url('../../assets/images/patterns/moroccan-flower-dark.png'); */
+  padding: 0 1rem;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.mahamiee-footer_contact-us .send-message-btn span {
+  display: block;
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: #dfe1e8;
+}
+.mahamiee-footer_contact-us .send-message-btn button{
+
+  width: 90%;
+  background: transparent;
+  border-color: #7096C6;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7096C6;
+}
+
+.mahamiee-footer_contact-us .send-message-btn button:hover{
+  border-color: #056de0;
+  color:#056de0;
+}

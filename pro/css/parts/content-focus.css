@@ -1,0 +1,49 @@
+.mahamiee-content_content-focus .company-name {
+  text-transform: uppercase;
+  display: block;
+  color: var(--brn-clr);
+  letter-spacing: .2rem;
+  font-size: .8rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.mahamiee-content_content-focus .logo-name {
+  color: var(--scnd-clr);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.mahamiee-content_content-focus .logo-desc {
+  color: var(--brn-clr1);
+  text-transform: uppercase;
+  margin-top: -1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.mahamiee-content_content-focus .logo-full-desc {
+  color: var(--brn-clr);
+  justify-content: center;
+  text-align: justify;
+  width: 74%;
+  text-indent: 50px;
+}
+
+.mahamiee-content_content-focus .get-started-btn {
+  background: rgba(92, 143, 198, 0.26);
+  box-shadow: 1px 1px 8px #a2c0df;
+  border-radius: 7px;
+  border: 1px solid rgba(92, 143, 198, 0.26);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--brn-clr);
+  padding: .2rem 2rem;
+  margin-top: .5rem;
+}
+.mahamiee-content_content-focus{
+  height: 640px;
+  padding: 7rem 0;
+}
+
