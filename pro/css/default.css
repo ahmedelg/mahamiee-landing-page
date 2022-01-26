@@ -1,39 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 body {
   width: 100%;
   height: 100%;
-  /* background-color: black !important; */
-  background-image: url("../assets/images/patterns/moroccan-flower-dark.png");
+  background-color: hsl(209deg 85% 37% / 22%);
+  /* background-image: url("../assets/images/patterns/moroccan-flower-dark.png"); */
   font-family: Poppins;
   overflow-x: hidden;
 }
 
-*{
-  transition: all .3s ease-in;
+* {
+  /* transition: all .3s ease-in; */
 }
 
-:root{
-  --mn-clr:rgba(23, 69, 120, 1);
-  --brn-clr:rgba(255, 255, 255, 0.89);
-  --scnd-clr:rgba(118, 183, 255, 1);
-  --brn-clr1:rgba(165, 201, 240, 1);
+:root {
+  --mn-clr: rgba(23, 69, 120, 1);
+  --brn-clr: rgba(255, 255, 255, 0.89);
+  --scnd-clr: rgba(118, 183, 255, 1);
+  --brn-clr1: rgba(165, 201, 240, 1);
 
-  --cmp-bg:red;
-  --cmp-clr:whitesmoke;
+  --cmp-bg: red;
+  --cmp-clr: whitesmoke;
 }
 
-.scd-clr{
-  color:var(--scnd-clr) !important;
+.scd-clr {
+  color: var(--scnd-clr) !important;
 }
 
-.mn-clr{
-  color:var(--mn-clr) !important;
+.mn-clr {
+  color: var(--mn-clr) !important;
 }
 
-.f-bold{
-  font-weight:bold !important;
+.f-bold {
+  font-weight: bold !important;
 }
 
-.f-normal{
+.f-normal {
   font-weight: normal !important;
 }

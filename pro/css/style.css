@@ -1,23 +1,40 @@
+/* DEFAULT */
 @import "./default.css";
+/* NAVBAR */
 @import "./parts/navbar.css";
+/* CONTENT-SECTIONS */
 @import "./parts/all-content-sections.css";
+/* CONTENT-FOCUS */
 @import "./parts/content-focus.css";
+/* OUR-WORK */
 @import "./parts/our-work.css";
+/* FEATURES */
 @import "./parts/features.css";
+/* SERVICES */
 @import "./parts/services.css";
+/* FOOTER  */
 @import "./parts/footer.css";
+@import "./parts/mahamiee_slider.css";
+/* MEDIA QUERIES */
+/* MAHaMIEE SLIDER */
+@import "./media_queries/mahamiee_slider.css";
 
 
-.container{
-  max-width:90% !important;
+.container {
+  max-width: 90% !important;
   padding: 0 !important;
 }
 
-section{
-  color:var(--brn-clr);
+section {
+  color: var(--brn-clr);
 }
 
-.mahamiee-component{
-  padding:4rem 0;
+.mahamiee-component {
+  padding: 4rem 0;
 }
 
+.mahamiee-header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}

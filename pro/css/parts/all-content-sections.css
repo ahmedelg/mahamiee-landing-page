@@ -1,38 +1,32 @@
 .mahamiee-content-address {
-  margin: 0 auto;
-  padding: 1re;
-  height: auto;
+  margin: 2rem auto;
+  min-height: 25px;
   text-align: center;
-  /* border-left: 2px solid var(--brn-clr); */
-  /* border-right: 2px solid var(--brn-clr); */
-  /* border-bottom: 2px solid var(--brn-clr); */
   font-weight: 700;
   text-transform: capitalize;
-  font-size: 1.4rem;
-  /* border-radius: 14px; */
+  font-size: 1.7rem;
+  color: rgb(23 90 154);
 }
 
-.mahamiee-content-address .line-shape{
+.mahamiee-content-address .line-shape {
   display: inline-block;
-  height:2px;
+  height: 2px;
   width: 57px !important;
-  background:var(--scnd-clr);
-  margin: 0 .3rem;
+  background: rgb(23 90 154);
+  margin: 13px .3rem;
 }
 
-.mahamiee-content-address .line-middle{
+.mahamiee-content-address .line-middle {
   position: relative;
-  background:var(--brn-clr);
+  background: rgb(23 90 154);
 }
 
-.mahamiee-content-address .line-middle span{
+.mahamiee-content-address .line-middle span {
   height: 15px;
   width: 15px;
-  background-color: rgb(255 255 255);
+  background-color: rgb(23 90 154);
   position: absolute;
   border-radius: 60px;
   top: -7.5px;
   left: 21px;
 }
-
-

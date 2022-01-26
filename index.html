@@ -17,27 +17,43 @@
     <link rel="stylesheet" href="pro/plugins/bootstrap/bootstrap_v4.css" />
 
     <!-- BOOTSTRAP ICONS -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
-    />
+    /> -->
+    <!-- TEXT ANIMATIONS -->
+    <link rel="stylesheet" href="./pro/css/text_animations.css" />
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="./pro/css/style.css" />
     <!-- <link rel="stylesheet" href="./pro/plugins/bootstrap/bootstrap-icons.css"> -->
-    <title>Mahamiee Product</title>
+
+    <!-- FONT AWESOME -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <title>Mahamiee</title>
   </head>
   <body>
     <!-- START MAHAMIEE ROOT -->
     <div id="root">
       <!-- START MAHAMIEE HEADER -->
       <section class="mahamiee-header">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light my-5 p-10">
+        <div class="">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container">
             <a class="navbar-brand mn-clr f-bold" href="#">
-              Mahamiee
-              <span class="d-block scd-clr f-normal">
+              <p id="logo">
+                <img src="./pro/assets/images/banner/banner.png" alt="" srcset="">
+                Mahamiee
+              </p>
+              
+              <!-- <span class="d-block scd-clr f-normal">
                 best developers tool
-              </span>
+              </span> -->
             </a>
             <button
               class="navbar-toggler"
@@ -52,49 +68,66 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <!-- START LINKS -->
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav mx-auto ">
                 <li class="nav-item active">
                   <a class="nav-link active" href="#"
-                    >home <span class="sr-only">(current)</span></a
+                    ><i class="fas fa-home"></i> home <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    >our work <span class="sr-only">(current)</span></a
+                    >
+                    <i class="fas fa-pencil-ruler"></i>
+                    our work <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    >features <span class="sr-only">(current)</span></a
+                    ><i class="fas fa-tasks"></i>
+                    features 
+                    <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    >services <span class="sr-only">(current)</span></a
+                    >
+                    <i class="far fa-handshake"></i>
+                    services
+                   <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    >about us <span class="sr-only">(current)</span></a
+                    >
+                    <i class="fas fa-user-ninja"></i>
+                    about us 
+                    
+                    <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
-                    >Contact Us <span class="sr-only">(current)</span></a
+                    >
+                    <i class="far fa-paper-plane"></i>
+                    Contact Us <span class="sr-only">(current)</span></a
                   >
                 </li>
               </ul>
               <!-- END LINKS -->
               <!-- START REGISTERATION BUTTONS -->
               <div class="form-inline">
-                <span class="signup-btn">
-                  sign up
-                  <span class="d-block"> start the journey </span>
+                <span class="signup-btn btn btn-primary">
+                  <i class="fas fa-sign-in-alt"></i> sign up
+
+                  <!-- <span class="d-block"> start the journey </span> -->
                 </span>
-                <span class="btn btn-primary login-btn"> log in </span>
+                <span class="btn btn-primary login-btn"> 
+                  <i class="fas fa-user-plus"></i> log in 
+                </span>
               </div>
               <!-- END REGISTERATION BUTTONS -->
             </div>
+           </div>
           </nav>
         </div>
       </section>
@@ -103,26 +136,37 @@
       <section class="mahamiee-content">
         <!-- START CONTENT_FOCUS -->
         <section class="mahamiee-content_content-focus">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="mahamiee-content_content-focus_description">
-                  <span class="company-name">algaied startup</span>
-                  <h3 class="logo-name">mahamiee</h3>
-                  <p class="logo-desc">best developers tools</p>
-                  <p class="logo-full-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Minus aliquam iusto dolorem perferendis maxime reiciendis
-                    nulla suscipit ad distinctio quaerat.
-                  </p>
-                  <p class="btn btn-primary get-started-btn">
-                    start now <i class="bi bi-arrow-right"></i>
-                  </p>
+          <div class="content-foucs_content">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="mahamiee-content_content-focus_description">
+                    <span class="company-name">algaied startup</span>
+                    <h3 class="logo-name">
+                      Mahamiee
+                    </h3>
+                    <h3 class="logo-name">
+                      Mahamiee
+                    </h3>
+                    <p class="logo-desc word">best developers tools</p>
+                    <p class="logo-full-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus aliquam iusto dolorem perferendis maxime reiciendis
+                      nulla suscipit ad distinctio quaerat.
+                    </p>
+                    <p class="btn btn-primary get-started-btn">
+                      start now <i class="fas fa-reply-all"></i>
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-12">
-                <div class="mahamiee_content-focus_video">
-                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/psdW0TdDZm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <div class="col-lg-6 col-md-12">
+                  <div class="mahamiee_content-focus_video">
+                    <div class="mahamiee_video-overlay"></div>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/psdW0TdDZm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <div class="mahamiee_video-bases">
+                      <span></span><span></span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -134,11 +178,52 @@
           <div class="container">
             <p class="mahamiee-content-address">
               our work <br />
-              <span class="line-shape line-left"> </span
-              ><span class="line-shape line-middle"><span></span> </span
-              ><span class="line-shape line-right"></span>
+              <!-- <span class="line-shape line-left"> </span
+              > -->
+              <!-- <span class="line-shape line-middle"><span></span> 
+              </span
+              > -->
+              <!-- <span class="line-shape line-right"></span> -->
             </p>
-            <div class="mahamiee-content_ourwork-slider">slider</div>
+            <div class="mahamiee-content_ourwork-slider">
+             
+                <div class="mahamiee-ourwork-slider">
+                  <div class="mahamiee-slider_imgs-sec-control">
+                    <nav class="navbar navbar-expand-lg">  
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mahamieeSliderLinks" aria-controls="mahamieeSliderLinks" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>    
+                      <div class="collapse navbar-collapse" id="mahamieeSliderLinks">
+                        <ul class="navbar-nav mr-auto imgs-sec-control_secs">
+                          <li  class='nav-item img-sec-active' imgs-sec-name='interfaces'>interfaces</li>
+                          <li  class='nav-item' imgs-sec-name='analysis'>analysis</li>
+                          <li  class='nav-item' imgs-sec-name='design'>design</li>
+                          <li class='nav-item'  imgs-sec-name='database'>database</li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                  <div class="mahamiee-slider_window">
+                    <div class="mahamiee-slider_window-overlay"></div>
+                    <div class="mahamiee-slider_image-box">
+                      <img class="img-fluid" src="./pro/assets/images/mahamiee-slider/interfaces/interface1.JPG" alt="">
+                    </div>
+                    <div class="mahamiee-slider_window-control">
+                      <h3>
+                        <u>mahamiee</u>
+                        <span>
+                          algaied startup
+                        </span>
+                      </h3>
+                      <div class="mahamiee-slider_img-control">
+                        <div class="slider_img-controllers-container">
+                          <span></span> <span></span><span></span><span></span><span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
           </div>
         </section>
         <!-- End OUR_WORK -->
@@ -150,9 +235,9 @@
             <div class="mahamiee-content_features-all">
               <p class="mahamiee-content-address">
                 features <br />
-                <span class="line-shape line-left"> </span
-                ><span class="line-shape line-middle"><span></span> </span
-                ><span class="line-shape line-right"></span>
+                <!-- <span class="line-shape line-middle"><span></span> 
+              </span
+              > -->
               </p>
               <div class="mahamiee-content_features-all_features">
                 <div class="container">
@@ -266,19 +351,19 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> 
         <!-- End MAHAMIEE FEATURES -->
         <!-- START MAHAMIEE SERVICES -->
         <section class="mahamiee-content_services">
           <p class="mahamiee-content-address">
             services <br />
-            <span class="line-shape line-left"> </span
-            ><span class="line-shape line-middle"><span></span> </span
-            ><span class="line-shape line-right"></span>
+            <!-- <span class="line-shape line-middle"><span></span> 
+              </span
+              > -->
           </p>
           <div class="mahamiee-content_services-all px-5">
             <div class="row">
-              <div class="col-lg-4 col-md-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="service-box service-type-basic">
                   <div class="service-box_header">
                     <h3 class="service-type">
@@ -293,28 +378,28 @@
                   <div class="service-box_content">
                     <ul>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add tasks.
+                        <i class="fas fa-check-circle"></i> add tasks.
                       </li>
 
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add selectors.
+                        <i class="fas fa-check-circle"></i> add selectors.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>local storage.
+                        <i class="fas fa-check-circle"></i> local storage.
                       </li>
                       <li class="not-available">
-                        <i class="bi bi-file-earmark-excel"></i>support many
+                        <i class="far fa-times-circle"></i> support many
                         languages.
                       </li>
                       <li class="not-available">
-                        <i class="bi bi-file-earmark-excel"></i>plan feature.
+                        <i class="far fa-times-circle"></i> plan feature.
                       </li>
                       <li class="not-available">
-                        <i class="bi bi-file-earmark-excel"></i>notifications
+                        <i class="far fa-times-circle"></i> notifications
                         feature.
                       </li>
                       <li class="not-available">
-                        <u style="font-size: 0.8rem">& many more</u>
+                        <u style="font-size: 0.8rem"> & many more</u>
                       </li>
                     </ul>
                     <div class="service-price">
@@ -327,7 +412,7 @@
                   <div class="service-box_get-button">get basic</div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="service-box service-type-premium">
                   <div class="service-box_header">
                     <h3 class="service-type">
@@ -344,28 +429,28 @@
                   <div class="service-box_content">
                     <ul>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add tasks.
+                        <i class="fas fa-check-circle"></i> add tasks.
                       </li>
 
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add selectors.
+                        <i class="fas fa-check-circle"></i> add selectors.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>local storage.
+                        <i class="fas fa-check-circle"></i> local storage.
                       </li>
-                      <li>
-                        <i class="bi bi-file-earmark-check"></i>support many
+                      <li> 
+                        <i class="fas fa-check-circle"></i> support many
                         languages.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>plan feature.
+                        <i class="fas fa-check-circle"></i> plan feature.
                       </li>
                       <li class="not-available">
-                        <i class="bi bi-file-earmark-excel"></i>notifications
+                        <i class="far fa-times-circle"></i> notifications
                         feature.
                       </li>
                       <li class="not-available">
-                        <u style="font-size: 0.8rem">& many more</u>
+                        <u style="font-size: 0.8rem"> & many more</u>
                       </li>
                     </ul>
                     <div class="service-price">
@@ -378,7 +463,7 @@
                   <div class="service-box_get-button">get premium</div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="service-box service-type-business">
                   <div class="service-box_header">
                     <h3 class="service-type">
@@ -397,27 +482,27 @@
                   <div class="service-box_content">
                     <ul>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add tasks.
+                        <i class="fas fa-check-circle"></i> add tasks.
                       </li>
 
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>add selectors.
+                        <i class="fas fa-check-circle"></i> add selectors.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>local storage.
+                        <i class="fas fa-check-circle"></i> local storage.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>support many
+                        <i class="fas fa-check-circle"></i> support many
                         languages.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>plan feature.
+                        <i class="fas fa-check-circle"></i> plan feature.
                       </li>
                       <li>
-                        <i class="bi bi-file-earmark-check"></i>notifications
+                        <i class="fas fa-check-circle"></i> notifications
                         feature.
                       </li>
-                      <li><u style="font-size: 0.8rem">& many more</u></li>
+                      <li><u style="font-size: 0.8rem"> & many more</u></li>
                     </ul>
                     <div class="service-price">
                       <h3>
@@ -450,7 +535,7 @@
                   <p class="mahamiee-footer_content-title">about us</p>
                   <h3 class="mahamiee-footer_content-address">
                     mahamiee
-                    <span> best developers tool </span>
+                    <span class="word"> best developers tool </span>
                   </h3>
                   <div class="mahamiee-footer_description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -463,7 +548,9 @@
                         href="http://www.facebook,com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        >F</a
+                        >
+                        <i class="fab fa-facebook-f"></i>
+                        </a
                       >
                     </span>
                     <span class="twitter">
@@ -472,9 +559,27 @@
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i class="bi bi-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                       </a>
                     </span>
+                    <span class="youtube">
+                      <a
+                        href="http://"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                      <i class="fab fa-youtube"></i>
+                      </a>
+                    </span>
+                    <!-- <span class="linkedin">
+                      <a
+                        href="http://"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                      <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </span> -->
                     <!-- <span>
                       Gmail
                     </span> -->
@@ -520,7 +625,7 @@
                         send message
                       </button>
                       <span>
-                        thank you, we will respond soon.
+                        thank you, we will respond you soon.
                       </span>
                     </div>
 
@@ -531,7 +636,7 @@
             </div>
           </div>
           <div class="footer-mahamiee_copyright">
-            <b>Mahamiee</b> 1.0.0 &copy; 2022 <span> / ahmed algaied / </span>
+            <b>Mahamiee</b> 1.0.0 &copy; 2022 <span> / ahmed algaied / </span> who says <span class="ahmed-snippet">we just need to understand what does computer try to say?</span>
           </div>
         </div>
        
@@ -546,15 +651,22 @@
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
+    <!-- BOOTSTRAP ICONS -->
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+
+    <!-- TEXT ANIMATIONS -->
+    <script src="./pro/js/textAnimations.js"></script>
+
   </body>
 </html>

@@ -1,0 +1,16 @@
+/* Mobile & Portrait Descktops & IPADS  */
+@media (max-width: 811px) {
+  .mahamiee-content_ourwork-slider {
+    border-left: 25px solid rgba(230, 233, 238, 0.69);
+    border-right: 25PX solid rgba(230, 233, 238, 0.69);
+  }
+
+  /* . */
+}
+
+@media (max-width: 811px) {
+  .mahamiee-content_ourwork-slider {
+    border-left: 25px solid rgba(230, 233, 238, 0.69);
+    border-right: 25PX solid rgba(230, 233, 238, 0.69);
+  }
+}

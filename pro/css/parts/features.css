@@ -7,6 +7,14 @@ mahamiee-content_features {}
   padding: 1rem 0;
 }
 
+.mahamiee-content_features {
+  background-image: linear-gradient(rgba(109, 163, 222, 0.54), rgba(0, 121, 255, 0.3)), url('../../assets/images/addTask2.png');
+  /* background: rgba(0, 0, 0, .8); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 .mahamiee-content_rectangle-shape {
   position: absolute;
   width: 130%;
@@ -15,12 +23,13 @@ mahamiee-content_features {}
   height: 100%;
   background: rgb(248 249 250);
   transform: rotate(-9deg);
+  display: none;
 }
 
 .mahamiee-content_rectangle .mahamiee-content-address {
   position: relative;
   border-color: var(--mn-clr);
-  color: var(--mn-clr);
+  color: rgb(248 249 250);
   /* padding: .5rem 0; */
   /* transform: rotate(-9deg); */
   margin: 4rem auto;
@@ -66,7 +75,7 @@ mahamiee-content_features {}
   /* margin-top: 7rem; */
 }
 
-.mahamiee-content_features-all_features .row > div:nth-child(odd){
+.mahamiee-content_features-all_features .row>div:nth-child(odd) {
   /* margin-left:.1rem; */
 }
 
@@ -81,8 +90,8 @@ mahamiee-content_features {}
   transition: all .5s linear;
 }
 
-.mahamiee-content-feature_container:hover{
-  box-shadow:0px 4px 4px rgb(0 0 0 / 25%);
+.mahamiee-content-feature_container:hover {
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   cursor: pointer;
 }
 
@@ -94,12 +103,12 @@ mahamiee-content_features {}
   background: rgb(229,239,249);
 } */
 
-.feature-shape{
+.feature-shape {
   border: 2px solid #b55ac6;
   box-sizing: border-box;
   box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
-  background: rgb(229,239,249);
+  background: rgb(229, 239, 249);
   padding: 0 0rem;
   width: 95%;
   margin: 0 auto;
@@ -136,14 +145,15 @@ mahamiee-content_features {}
   /* box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%); */
 }
 
-.feature-shape-1 .feature-address,.feature-shape-2 .feature-address{
+.feature-shape-1 .feature-address,
+.feature-shape-2 .feature-address {
   position: relative;
   color: rgb(74 23 120);
   /* border:1px solid var(--mn-clr); */
   /* background:var(--mn-clr); */
 }
 
-.feature-content{
+.feature-content {
   padding: 0 4rem;
   /* padding-left: 6rem; */
 }
@@ -170,65 +180,71 @@ mahamiee-content_features {}
   border-right: none;
 }
 
-.mahamiee-content-feature_container .shape-bottom-right{
+.mahamiee-content-feature_container .shape-bottom-right {
   bottom: -25px;
   right: -25px;
   display: none;
-} 
+}
 
 
-.mahamiee-content-feature_container .shape-bottom-left{
+.mahamiee-content-feature_container .shape-bottom-left {
   bottom: 32px;
   left: -25px;
   border-left: 0px solid #f8f9fa !important;
   border-right: 0px solid #f6dafa;
   border-top: 10px solid #4a338e;
   border-bottom: 10px solid #4a338e;
-} 
+}
 
-.mahamiee-content-feature_container .shape-top-left{
+.mahamiee-content-feature_container .shape-top-left {
   top: -25px;
   left: -25px;
-} 
-.mahamiee-content-feature_container .feature-address .shape-round{
+}
+
+.mahamiee-content-feature_container .feature-address .shape-round {
   background: transparent !important;
   border-color: transparent !important;
-  width:25px !important;
-  height:25px !important;
+  width: 25px !important;
+  height: 25px !important;
   display: none;
 }
 
-.mahamiee-content-feature_container .feature-address .shape-bottom-right{
+.mahamiee-content-feature_container .feature-address .shape-bottom-right {
   bottom: -12.5px;
   right: -12.5px;
-} 
-.mahamiee-content-feature_container .feature-address .shape-bottom-left{
+}
+
+.mahamiee-content-feature_container .feature-address .shape-bottom-left {
   bottom: -12.5px;
   left: -12.5px;
 }
 
-.mahamiee-content-feature_container .feature-address .shape-top-left{
+.mahamiee-content-feature_container .feature-address .shape-top-left {
   top: -12.5px;
   left: -12.5px;
 }
 
-.mahamiee-content-feature_container .feature-address .shape-top-right{
+.mahamiee-content-feature_container .feature-address .shape-top-right {
   top: -12.5px;
   right: -12.5px;
 }
 
 
-.feature-description{
+.feature-description {
   /* padding-left: 12px; */
   text-align: justify;
   /* text-indent: 35px; */
   color: #79549a;
 }
-.feature-shape-1{
+
+.feature-shape-1 {
   border-color: rgb(74 51 142) !important;
   background-color: #ead3ff !important;
-  }
-.feature-shape-2{background:#f6dafa;}
+}
+
+.feature-shape-2 {
+  background: #f6dafa;
+}
 
 .feature-shape-2 .feature-address .shape-round {
   background: transparent !important;
@@ -241,7 +257,7 @@ mahamiee-content_features {}
   color: #b55ac2 !important;
 }
 
-.feature-shape-2 .feature-icon{
+.feature-shape-2 .feature-icon {
   background: #c596cc !important;
 }
 
@@ -250,43 +266,52 @@ mahamiee-content_features {}
 }
 
 .feature-shape-1 .shape-round {
-  border-color:rgb(74 23 120) ;
+  border-color: rgb(74 23 120);
 }
 
 .feature-shape-2 .shape-round {
-  border-color:#b55ac2;
+  border-color: #b55ac2;
 }
 
 .feature-shape-3 .shape-round {
-  border-color:#da5151;
+  border-color: #da5151;
 }
+
 .feature-shape-4 .shape-round {
-  border-color:#51da6f ;
+  border-color: #51da6f;
 }
 
 
-.feature-shape-3 {border-color:#da5151 !important;background-color: #ffcfcf !important;}
-
-.feature-shape-3 .feature-address{
-  color:#da5151 !important;
+.feature-shape-3 {
+  border-color: #da5151 !important;
+  background-color: #ffcfcf !important;
 }
+
+.feature-shape-3 .feature-address {
+  color: #da5151 !important;
+}
+
 .feature-shape-3 .feature-description {
- color: #be3c3c !important;
+  color: #be3c3c !important;
 }
+
 .feature-shape-4 {
   border-color: #51da6f !important;
   background-color: #eeffec !important;
 }
-.feature-shape-4 .feature-address{
+
+.feature-shape-4 .feature-address {
   color: #51da6f !important;
 }
+
 .feature-shape-4 .feature-description {
- color: #4da660 !important;
+  color: #4da660 !important;
 }
 
-.mahamiee-content_rectangle .mahamiee-content-address .line-middle{
-  background-color: var(--mn-clr) !important;
+.mahamiee-content_rectangle .mahamiee-content-address .line-middle {
+  background-color: rgb(248 249 250) !important;
 }
+
 .mahamiee-content_rectangle .mahamiee-content-address .line-middle span {
-  background-color: var(--scnd-clr) !important;
+  background-color: rgb(248 249 229) !important;
 }
