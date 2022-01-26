@@ -119,8 +119,8 @@
 }
 
 .mahamiee-footer_subscription-part input[type="submit"]:hover {
-  background: #6eaff8;
-  color: #175a9a !important;
+  background: transparent;
+  color: rgb(163, 207, 255) !important;
 }
 
 .mahamiee-footer_subscription-part span {
@@ -204,16 +204,32 @@
 }
 
 .mahamiee-footer_contact-us .send-message-btn button:hover {
-  border-color: #93bcec;
-  color: #ffffff;
+  border-color: lightgreen;
+  color: lightgreen;
 }
 
 
 .ahmed-snippet {
-  text-transform: capitalize !important;
-  color: #175a9a !important;
+  text-transform: uppercase !important;
+  color: #3a73a9 !important;
   font-size: 0.8rem;
-  background: lightgreen !important;
-  border-radius: 50px !important;
+  background: #cadced !important;
+  border-radius: 24px !important;
   padding: 0 8px !important;
+  box-shadow: 1px 1px 5px white;
+  text-shadow: 1px 1px 5px #3771a8;
+  font-weight: 600 !important;
+  /* outline: 1px solid white; */
+}
+
+
+.mahamiee-footer_contact-us input:hover {
+  background: #3a73a9 !important;
+  outline-color: #3a73a9;
+}
+
+.mahamiee-footer_contact-us input:focus,
+.mahamiee-footer_contact-us textarea:focus {
+  outline-color: #3a73a9;
+  background: #3a73a9 !important;
 }

@@ -1,12 +1,12 @@
 var words = [
-    "BEST DEVELOPERS TOOL",
-    "FROM ALGAIED STARTUP",
-    "SAVE YOUR EFFORTs AND TIME",
-    "ACHIEVE MAXIMUM PRODUCTIVITY",
-    "A LOT OF FEATURES YOU CAN TRY",
-    "IT's FREE JUST TRY IT",
-    "BE UPDATED WITH LATEST VERSIONS",
-    "We Have a Great COMMING FEATURES"
+    "best developers tool",
+    "from algaied startup",
+    "save your efforts and time",
+    "achieve maximum productivity",
+    "a lot of features you can try",
+    "it's free just try it",
+    "be updated with latest versions",
+    "we have a great comming features"
   ],
   part,
   i = 0,

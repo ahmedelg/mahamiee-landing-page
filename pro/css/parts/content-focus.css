@@ -10,12 +10,17 @@
 .mahamiee-content_content-focus {
   position: relative;
   height: 794px;
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c), url('../../assets/images/backgrounds/ios-development-tools.png'); */
+  background: linear-gradient(rgb(118 183 255), rgba(0, 0, 0, 0.1)), url(../../assets/images/backgrounds/ios-development-tools.png);
+  /* url('../../assets/images/backgrounds/ios-development-tools.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mahamiee-content_content-focus .company-name {
   text-transform: uppercase;
   display: block;
-  color: rgb(119 167 212);
+  color: rgb(0 89 174);
   letter-spacing: .1rem;
   font-size: .9rem;
   margin-bottom: 2.5rem;
@@ -30,7 +35,7 @@
 }
 
 .mahamiee-content_content-focus .logo-desc {
-  color: rgb(86 136 183);
+  color: #1f6eba;
   text-transform: uppercase;
   margin-top: -1rem;
   font-weight: 500;
@@ -38,7 +43,7 @@
 }
 
 .mahamiee-content_content-focus .logo-full-desc {
-  color: #5688b7;
+  color: #0f4785;
   justify-content: center;
   text-align: justify;
   width: 75%;
@@ -47,22 +52,26 @@
 }
 
 .mahamiee-content_content-focus .get-started-btn {
-  background: transparent;
-  box-shadow: 1px 1px 7px var(--mn-clr);
-  border-radius: 6px;
-  border: 1px solid rgb(23 90 154);
+  background: #024ea1;
+  box-shadow: 1px 1px 7px #206cb6;
+  /* border-radius: 6px; */
+  border: 1px solid #206cb6;
   font-size: 1.1rem;
   text-transform: uppercase;
-  color: rgb(23 90 154);
+  color: rgb(150 203 252);
   padding: .5rem 2rem;
   margin-top: .5rem;
   font-weight: 500;
   transition: all .3s linear;
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
 }
 
 .mahamiee-content_content-focus .get-started-btn:hover {
   /* color: var(--brn-clr);
 background: var(--mn-clr); */
+  background: transparent;
+  color: #175a9a;
 
 }
 

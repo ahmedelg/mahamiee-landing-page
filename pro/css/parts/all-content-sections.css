@@ -5,7 +5,8 @@
   font-weight: 700;
   text-transform: capitalize;
   font-size: 1.7rem;
-  color: rgb(23 90 154);
+  text-shadow: 1px 1px 20px #76b7ff, -1px -1px 20px #76b7ff;
+  color: #175a9a;
 }
 
 .mahamiee-content-address .line-shape {

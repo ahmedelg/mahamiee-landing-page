@@ -115,10 +115,11 @@
 
 #logo {
   margin: 0 !important;
+  font-family: Aref Ruqaa;
 }
 
 #logo img {
   height: 45px;
-  width: 56px;
+  width: 45px;
   border-radius: 100px;
 }
